@@ -1,0 +1,11 @@
+// when click on submit, get searchterm from form,
+//<form>
+//       Search:<br>
+//       <input type="text" name="searchterm"><br>
+//       <input type="submit" value="Submit">
+//     </form>
+//     <div class="my_content_container">
+//      <a id="snopeslink" href="https://www.snopes.com/?s=">Link</a>
+//    </div>
+//
+document.links["snopeslink"].href += searchterm;
